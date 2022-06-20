@@ -2,7 +2,8 @@ import React, { useReducer } from "react";
 import axios from "axios";
 
 export const productsContext= React.createContext();
-const API = "http://localhost:8001/data"
+// const API = "http://localhost:8001/data"
+const API ="https://makers-deploy2.herokuapp.com/data"
 
 const INIT_STATE ={
     products: [],
